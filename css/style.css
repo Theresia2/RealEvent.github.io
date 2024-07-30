@@ -1,1 +1,21 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background:linear-gradient(#00000042, #0000003b), url(../img/font.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div , form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div h2{
+    font-size: 2rem;
+}
